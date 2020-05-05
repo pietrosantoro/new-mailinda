@@ -1,0 +1,980 @@
+{
+  "programList": [
+    {
+      "program_Name": "Ad grants",
+      "program_Level": "Scaled",
+      "acquisition": "TRUE",
+      "shopping_online": "TRUE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Ads Front End (AWFE)",
+      "program_Level": "Scaled",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Agency Builders AS",
+      "program_Level": "Scaled",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Agency HH ADM",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Agency HH AS",
+      "program_Level": "HT",
+      "acquisition": "TRUE",
+      "shopping_online": "TRUE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Agency HL ADM",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Agency HL AS",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Agency LH AS",
+      "program_Level": "Scaled",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Agency LH Full",
+      "program_Level": "Scaled",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Agency LL AS",
+      "program_Level": "Scaled",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Agency TAS",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Agency Training",
+      "program_Level": "Scaled",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "All AppDev teams",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "All GCE teams",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "AppDev",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "AppDev 1CRM",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "AppDevA",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "AppDevX",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "AppDevX Accelerate 1CRM",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "AWX Max Retention Lab",
+      "program_Level": "Scaled",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "AWX Max Retention Lab program",
+      "program_Level": "Scaled",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Channel Sales",
+      "program_Level": "Scaled",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "FALSE"
+    },
+    {
+      "program_Name": "Channel Sales SPM",
+      "program_Level": "Scaled",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "FALSE"
+    },
+    {
+      "program_Name": "Dynamic Agency",
+      "program_Level": "Scaled",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "ETO",
+      "program_Level": "Scaled",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "ETO : Agency",
+      "program_Level": "Scaled",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "ETO : CS",
+      "program_Level": "Scaled",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "ETO : Inbound",
+      "program_Level": "Scaled",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "ETO : Outbound",
+      "program_Level": "Scaled",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "ETO Onboarding",
+      "program_Level": "Scaled",
+      "acquisition": "TRUE",
+      "shopping_online": "TRUE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "GCE Kickstart Pinnacle",
+      "program_Level": "Scaled",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "GCE Kickstart Reactive",
+      "program_Level": "Scaled",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "GCE Kickstart Scaled",
+      "program_Level": "Scaled",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "GCE Pinnacle",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "GCE SRP - HV+/ (non-pinnacle)",
+      "program_Level": "Scaled",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "GCE Wave",
+      "program_Level": "Scaled",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "GCE- Pinnacle/HV/HV+ ONLY",
+      "program_Level": "Scaled",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "GCE- Site wide tagging",
+      "program_Level": "Scaled",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "GEM",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "GEM ML",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "GEM Training",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "GMS Upsell",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "GSS",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "TRUE",
+      "tags": "FALSE"
+    },
+    {
+      "program_Name": "Help Center",
+      "program_Level": "Scaled",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Incubation Project",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Kickstart Connect",
+      "program_Level": "HT",
+      "acquisition": "TRUE",
+      "shopping_online": "TRUE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Kickstart Scaled",
+      "program_Level": "HT",
+      "acquisition": "TRUE",
+      "shopping_online": "TRUE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Kickstart X",
+      "program_Level": "HT",
+      "acquisition": "TRUE",
+      "shopping_online": "TRUE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Kickstart+",
+      "program_Level": "HT",
+      "acquisition": "TRUE",
+      "shopping_online": "TRUE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Kickstart+ 1CRM",
+      "program_Level": "N/A",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "FALSE"
+    },
+    {
+      "program_Name": "LeadGen",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Large Customer Sales (LCS)",
+      "program_Level": "N/A",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "FALSE"
+    },
+    {
+      "program_Name": "LCS",
+      "program_Level": "N/A",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "FALSE"
+    },
+    {
+      "program_Name": "Managed Agency 1CRM TAS",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Managed Agency ADM",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Managed Agency ADM Full",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Managed Agency AS",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Managed Agency Atlantis ADM",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Managed Agency Atlantis AS",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Managed Agency HH 1CRM ADM",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Managed Agency HH 1CRM AS",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Managed Agency HL 1CRM ADM",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Managed Agency HL 1CRM AS",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Managed Agency Orbit ADM",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Managed Agency Orbit AS",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Managed Agency Orbit TAS",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Managed Agency Three ADM",
+      "program_Level": "Scaled",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Managed Agency Three Apollo AS",
+      "program_Level": "Scaled",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Managed Agency Three AS",
+      "program_Level": "Scaled",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Managed Agency Two ADM",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Managed Agency Two AS",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "MBE Sales",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "MMS Amplify",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "MMS Amplify 1CRM",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "MMS One",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "MMS One 1CRM",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "MMS One Apollo",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "MMS Pilot A 1CRM",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "MMS Two",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "MMS Two Apollo",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "NASA",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "NBS",
+      "program_Level": "HT",
+      "acquisition": "TRUE",
+      "shopping_online": "TRUE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Newbie Plus Phoenix",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Newbie+",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Newbie+/Kickstart+",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "RCC non-olympus HV/HV+ Only",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "RCC Olympus",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "SBS Engage",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "SBS Engage 1CRM",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "SBS Pilot 1 CRM",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "SBS Pilot B 1CRM",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "SBS Scaled",
+      "program_Level": "Scaled",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "SBS Scaled 1CRM",
+      "program_Level": "Scaled",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Services/GCE",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Small Business",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Small Business Apollo",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Small Business Mobile",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Small Business Sales",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "SMB Upsell",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Top Movers",
+      "program_Level": "Scaled",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Traditional Agency 1CRM AS",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Traditional Agency 1CRM BDM",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Traditional Agency ADM",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Traditional Agency Apollo AS",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Traditional Agency AS",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Traditional Agency BDM",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Traditional Agency GTM 1CRM AS",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Traditional Agency GTM 1CRM BDM",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Traditional Agency GTM 1CRM TAS",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Training",
+      "program_Level": "Scaled",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Training 1 CRM",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "UMM",
+      "program_Level": "Scaled",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "UMM Engage",
+      "program_Level": "Scaled",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "UMM Mobile",
+      "program_Level": "Scaled",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "UMM PGA",
+      "program_Level": "Scaled",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "UMM Scaled",
+      "program_Level": "Scaled",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "UMM Training",
+      "program_Level": "Scaled",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "UMM X",
+      "program_Level": "Scaled",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "FALSE"
+    },
+    {
+      "program_Name": "Unassigned",
+      "program_Level": "Scaled",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Unassigned-SBS",
+      "program_Level": "Scaled",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Unassigned-UMM",
+      "program_Level": "Scaled",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    },
+    {
+      "program_Name": "Upsell Comet",
+      "program_Level": "HT",
+      "acquisition": "FALSE",
+      "shopping_online": "FALSE",
+      "shopping_offline": "FALSE",
+      "tags": "TRUE"
+    }
+  ]
+}

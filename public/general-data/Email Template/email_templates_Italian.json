@@ -1,0 +1,12 @@
+{
+    "email_template": {
+        "1": {
+            "subject": "Awaiting Impressions/Conversions",
+            "body": "Buongiorno {{Advertiser Name}}, <br><br> Ti ringraziamo per esserti messo in contatto con il Team di Implementazione di Google riguardo il  {{Tags[0]['Task_Type']}} per {!Case.URL__c}. Di seguito lo stato della tua richiesta."
+        },
+        "2": {
+            "subject": "FollowUp",
+            "body": "ciao {{Case Number}} {{myValue}}"
+        }
+    }
+}

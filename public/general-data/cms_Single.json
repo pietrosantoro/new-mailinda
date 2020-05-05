@@ -1,0 +1,138 @@
+{
+  "cmsl_List": [
+    {
+      "cms_Group": {
+        "cms_Name": "CMS Name",
+        "Access Head": "FALSE",
+        "Access Body": "FALSE",
+        "Access Footer": "FALSE",
+        "Access FTP": "FALSE",
+        "Version": "v1.0",
+        "Last Updated Date": "01-01-1900",
+        "Last Updated By": "Unknown",
+        "Task List": [
+          {
+            "task_Group": "Ads",
+            "task_Name": "Google Ads Conversion Code",
+            "task_Possible": "TRUE"
+          },
+          {
+            "task_Group": "Ads",
+            "task_Name": "Google Ads Event Tracking",
+            "task_Possible": "TRUE"
+          },
+          {
+            "task_Group": "Ads",
+            "task_Name": "Google Ads Remarketing",
+            "task_Possible": "TRUE"
+          },
+          {
+            "task_Group": "Ads",
+            "task_Name": "Site Wide Tag - Conversion Tracking Fix ",
+            "task_Possible": "TRUE"
+          },
+          {
+            "task_Group": "Ads",
+            "task_Name": "Website Call Conversion",
+            "task_Possible": "TRUE"
+          },
+          {
+            "task_Group": "Analytics",
+            "task_Name": "Analytics",
+            "task_Possible": "TRUE"
+          },
+          {
+            "task_Group": "Analytics",
+            "task_Name": "Analytics Destination Tracking",
+            "task_Possible": "TRUE"
+          },
+          {
+            "task_Group": "Analytics",
+            "task_Name": "Analytics Event Tracking",
+            "task_Possible": "TRUE"
+          },
+          {
+            "task_Group": "Analytics",
+            "task_Name": "Cross Domain Tracking",
+            "task_Possible": "TRUE"
+          },
+          {
+            "task_Group": "Analytics",
+            "task_Name": "Google Analytics Remarketing",
+            "task_Possible": "TRUE"
+          },
+          {
+            "task_Group": "GTM",
+            "task_Name": "Google Tag Manager Installation",
+            "task_Possible": "TRUE"
+          },
+          {
+            "task_Group": "Shopping",
+            "task_Name": "Google Shopping Setup",
+            "task_Possible": "TRUE"
+          },
+          {
+            "task_Group": "Ads",
+            "task_Name": "Google Ads Conversion Tracking Troubleshooting (BeFit)",
+            "task_Possible": "TRUE"
+          },
+          {
+            "task_Group": "Ads",
+            "task_Name": "Dynamic Remarketing - Retail",
+            "task_Possible": "TRUE"
+          },
+          {
+            "task_Group": "Ads",
+            "task_Name": "Dynamic Remarketing - X (Non-Retail)",
+            "task_Possible": "TRUE"
+          },
+          {
+            "task_Group": "Ads",
+            "task_Name": "Offline Conversion Tracking",
+            "task_Possible": "TRUE"
+          },
+          {
+            "task_Group": "Analytics",
+            "task_Name": "Analytics E-Commerce Tracking",
+            "task_Possible": "TRUE"
+          },
+          {
+            "task_Group": "Analytics",
+            "task_Name": "Analytics Enhanced E-Commerce Tracking",
+            "task_Possible": "TRUE"
+          },
+          {
+            "task_Group": "Analytics",
+            "task_Name": "Google Analytics Dynamic Remarketing (Non-Retail)",
+            "task_Possible": "TRUE"
+          },
+          {
+            "task_Group": "Analytics",
+            "task_Name": "Google Analytics Dynamic Remarketing (Retail)",
+            "task_Possible": "TRUE"
+          },
+          {
+            "task_Group": "Analytics",
+            "task_Name": "Google Analytics Troubleshooting",
+            "task_Possible": "TRUE"
+          },
+          {
+            "task_Group": "Analytics",
+            "task_Name": "Google Health Check",
+            "task_Possible": "TRUE"
+          },
+          {
+            "task_Group": "Misc",
+            "task_Name": "Recaptcha",
+            "task_Possible": "TRUE"
+          },
+          {
+            "task_Group": "Shopping",
+            "task_Name": "Existing Feed optimization",
+            "task_Possible": "TRUE"
+          }
+        ]
+      }
+    }
+  ]
+}

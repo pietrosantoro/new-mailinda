@@ -1,0 +1,116 @@
+{
+  "taskList": [
+    {
+      "task_Group": "Ads",
+      "task_Name": "Ads Conversion Code",
+      "task_LVL": "L1"
+    },
+    {
+      "task_Group": "Ads",
+      "task_Name": "Ads Event Tracking",
+      "task_LVL": "L1"
+    },
+    {
+      "task_Group": "Ads",
+      "task_Name": "Ads Remarketing",
+      "task_LVL": "L1"
+    },
+    {
+      "task_Group": "Ads",
+      "task_Name": "Site Wide Tag - Conversion Tracking Fix",
+      "task_LVL": "L1"
+    },
+    {
+      "task_Group": "Ads",
+      "task_Name": "Website Call Conversion",
+      "task_LVL": "L1"
+    },
+    { "task_Group": "Analytics", "task_Name": "Analytics", "task_LVL": "L1" },
+    {
+      "task_Group": "Analytics",
+      "task_Name": "Analytics Destination Tracking",
+      "task_LVL": "L1"
+    },
+    {
+      "task_Group": "Analytics",
+      "task_Name": "Analytics Event Tracking",
+      "task_LVL": "L1"
+    },
+    {
+      "task_Group": "Analytics",
+      "task_Name": "Cross Domain Tracking",
+      "task_LVL": "L1"
+    },
+    {
+      "task_Group": "Analytics",
+      "task_Name": "Google Analytics Remarketing",
+      "task_LVL": "L1"
+    },
+    {
+      "task_Group": "GTM",
+      "task_Name": "Google Tag Manager Installation",
+      "task_LVL": "L1"
+    },
+    {
+      "task_Group": "Shopping",
+      "task_Name": "Shopping Feed Setup",
+      "task_LVL": "L1"
+    },
+    {
+      "task_Group": "Ads",
+      "task_Name": "Ads Conversion Tracking Troubleshooting",
+      "task_LVL": "L2"
+    },
+    {
+      "task_Group": "Ads",
+      "task_Name": "Dynamic Remarketing - Retail",
+      "task_LVL": "L2"
+    },
+    {
+      "task_Group": "Ads",
+      "task_Name": "Dynamic Remarketing - (Non-Retail)",
+      "task_LVL": "L2"
+    },
+    {
+      "task_Group": "Ads",
+      "task_Name": "Offline Conversion Tracking",
+      "task_LVL": "L2"
+    },
+    {
+      "task_Group": "Analytics",
+      "task_Name": "Analytics E-Commerce Tracking",
+      "task_LVL": "L2"
+    },
+    {
+      "task_Group": "Analytics",
+      "task_Name": "Analytics Enhanced E-Commerce Tracking",
+      "task_LVL": "L2"
+    },
+    {
+      "task_Group": "Analytics",
+      "task_Name": "Google Analytics Dynamic Remarketing (Non-Retail)",
+      "task_LVL": "L2"
+    },
+    {
+      "task_Group": "Analytics",
+      "task_Name": "Google Analytics Dynamic Remarketing (Retail)",
+      "task_LVL": "L2"
+    },
+    {
+      "task_Group": "Analytics",
+      "task_Name": "Google Analytics Troubleshooting",
+      "task_LVL": "L2"
+    },
+    {
+      "task_Group": "Analytics",
+      "task_Name": "Google Analytics Health Check",
+      "task_LVL": "L2"
+    },
+    { "task_Group": "Misc", "task_Name": "Recaptcha", "task_LVL": "L2" },
+    {
+      "task_Group": "Shopping",
+      "task_Name": "Existing Feed optimization",
+      "task_LVL": "L2"
+    }
+  ]
+}

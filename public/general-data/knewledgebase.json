@@ -1,0 +1,63 @@
+{
+        "Remarketing":{
+
+          "wordpress":{
+            "code":" remarketing code worspress goes here",
+            "instruction":"remarketing instructions wordpress goes here"
+          },
+          "prestashop":{
+            "code":" remarketing code Prestashop goes here",
+            "instruction":"remarketing instructions Prestashop goes here"
+          },
+          "magento":{
+            "code":" remarketing code Magento goes here",
+            "instruction":"remarketing instructions Magento goes here"
+          }
+         
+        },
+        "Ecommerce":{
+          "wordpress":{
+            "code":" Ecommerce code worspress goes here",
+            "instruction":"Ecommerce instructions wordpress goes here"
+          },
+          "prestashop":{
+            "code":" Ecommercecode Prestashop goes here",
+            "instruction":"Ecommerce instructions Prestashop goes here"
+          },
+           "magento":{
+            "code":" Ecommerce code Magento goes here",
+            "instruction":"Ecommerce instructions Magento goes here"
+          }        
+
+        },
+        "Ads-Conversion":{
+          "wordpress":{
+            "code":" Ads conversion code worspress goes here",
+            "instruction":"Ads conversion instructions wordpress goes here"
+          },
+          "prestashop":{
+            "code":" Ads conversion code Prestashop goes here",
+            "instruction":"Ads conversion instructions Prestashop goes here"
+          },
+          "magento":{
+            "code":" Ads conversion code Magento goes here",
+            "instruction":"Ads conversion instructions Magento goes here"
+          }
+         
+        },
+         "Analytics-Conversion":{
+          "wordpress":{
+            "code":" Analyitcs conversion code worspress goes here",
+            "instruction":"Analytics  conversion instructions wordpress goes here"
+          },
+          "prestashop":{
+            "code":" Analytics conversion code Prestashop goes here",
+            "instruction":"Analytics  conversion instructions Prestashop goes here"
+          },
+          "magento":{
+            "code":" Analytics conversion code Magento goes here",
+            "instruction":"Analytics  conversion instructions Magento goes here"
+          }
+         
+        }
+      }
