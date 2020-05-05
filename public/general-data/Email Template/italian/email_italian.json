@@ -1,8 +1,0 @@
-{
-    "email_template": {
-        "1": {
-            "subject": "FollowUp",
-            "body": "ciao {{test}} {{myValue}}"
-        }
-    }
-}

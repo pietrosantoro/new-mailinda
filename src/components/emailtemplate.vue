@@ -30,7 +30,7 @@
         
         <div v-for="(email,index) in this.template_global">
           <h2>{{email.subject}}</h2>
-          <div v-html="someText"></div>
+          <v-runtime-template :template="email.body"/>
         </div>
       </div>
     </div>
@@ -38,23 +38,26 @@
 </template>
 
 <script>
+
+import VRuntimeTemplate from "v-runtime-template";
+
 export default {
   name: 'emailtemplate',
+  props: ['props'],
+  components: {
+    VRuntimeTemplate
+  },
   data() {
     return {
       count: 0,
       test: "test interpolation",
-      test1: "{{ test }} {{ myValue }}",
+      test1: '<div>{{test}}</div>',
       template_global: "",
-      junior_sme_daily: "",
-      junior_sme_global: "",
-      current_day: "",
-      current_hours: "",
       all_market: "",
       current_market: "",
-      all_salesforce_fields: all_salesforce_fields,
-      someText: "some text {{ this.myValue }} some text",
-      myValue: "300"
+      body : "",
+      all_salesforce_fields: this.props.all_salesforce_fields,
+      tempJsonFolder: this.props.tempJsonFolder,
     };
   },
   activated: function () {
@@ -64,9 +67,7 @@ export default {
     console.log('Email Template deactivated')
   },
   mounted: function () {
-    // var current_date = new Date();
-    // this.current_day = current_date.getDay()
-    // this.current_hours = current_date.getHours()
+    const newThis = this
     //checkMarket()
     var market;
     // everytime the component is mounted, I get market from local storage
@@ -74,7 +75,7 @@ export default {
       if (result.market) {
         console.log(result.market)
         market = result.market;
-        this.current_market = result.market;
+        newThis.current_market = result.market;
         
       }
       else {
@@ -86,12 +87,12 @@ export default {
     // console.log(current_date)
     // console.log(this.current_day)
     // console.log(this.current_hours)
-    fetch('../' + tempJsonFolder + 'Email%20Template/all_market.json')
+    fetch('../' + newThis.tempJsonFolder + 'Email%20Template/all_market.json')
       .then(response => response.json())
       .then(data => {
         // console.log(data)
         // console.log(data.juniorsme[this.current_day])
-        this.all_market = data.all_market
+        newThis.all_market = data.all_market
         
         console.log(this.all_market)
         //this.all_location = Object.keys(data)
@@ -101,48 +102,54 @@ export default {
         //this.hangout_link = data[this.current_location].hangout_link
         // console.log(this.hangout_link)
       }).catch(error => console.error(error))
-      fetch('../' + tempJsonFolder + 'Email%20Template/email_templates_' + 'Italian' + '.json')
+      fetch('../' + newThis.tempJsonFolder + 'Email%20Template/email_templates_' + 'Italian' + '.json')
       .then(response => response.json())
       .then(data => {
         // console.log(data)
         // console.log(data.juniorsme[this.current_day])
-        this.template_global = data.email_template
-        console.log(this.template_global)
+        // add div to the body of the email in order to render correctly the copmponent with VRuntimeTemplate library
+        newThis.template_global = data.email_template
+        newThis.template_global.forEach(function(element,index){
+          this[index].body = "<div class='email-body'>" + element.body + "</div>"
+          console.log(this[index].body)
+          
+        },newThis.template_global);   // use newThis.template_global as "this" object inside the callback function in order to edit the original array
+        console.log(newThis.template_global)
         //test1 = data.email_template
         //console.log(test1)
         //this.all_location = Object.keys(data)
-        this.current_market = market
+        newThis.current_market = market
         //console.log(data[this.current_location])
         //this.junior_sme_daily = data[this.current_location].juniorsme[this.current_day]
         //this.hangout_link = data[this.current_location].hangout_link
         // console.log(this.hangout_link)
       })
       .catch(error => console.error(error))
-      window.dataLayer.push("EmailTemplateTab")
+      //window.dataLayer.push("EmailTemplateTab")
     console.log('Email Template  mounted')
   },
   computed: {
-    parsedSomeText() {
-      console.log(this.all_market)
-      let ret = this.template_global[1].body
+    // parsedSomeText() {
+    //   console.log(this.all_market)
+    //   let ret = this.template_global[1].body
 
       
-      if (/[^{\}]+(?=})/g.test(this.template_global[1].body)) {
-        let keyArr = String(this.template_global[1].body).match(/[^{\}]+(?=})/g)
-        // console.log(keyArr)
-        keyArr.forEach(element => {
-          console.log(element)
-          if (this.all_salesforce_fields){
-            var regex = new RegExp("{{" + element + "}}");
-           // console.log(regex)
-            ret = ret.replace(regex, this.$data.all_salesforce_fields[element])
-           // console.log(ret)
-          }
-        });
+    //   if (/[^{\}]+(?=})/g.test(this.template_global[1].body)) {
+    //     let keyArr = String(this.template_global[1].body).match(/[^{\}]+(?=})/g)
+    //     // console.log(keyArr)
+    //     keyArr.forEach(element => {
+    //       console.log(element)
+    //       if (this.all_salesforce_fields){
+    //         var regex = new RegExp("{{" + element + "}}");
+    //        // console.log(regex)
+    //         ret = ret.replace(regex, this.$data.all_salesforce_fields[element])
+    //        // console.log(ret)
+    //       }
+    //     });
         
-      }
-      return ret
-    }
+    //   }
+    //   return ret
+    // }
   },
   methods: {
     checkMarket() {

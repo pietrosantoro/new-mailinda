@@ -6,7 +6,7 @@
         },
         "2": {
             "subject": "FollowUp",
-            "body": "ciao {{Case Number}} {{myValue}}"
+            "body": "Some text {{all_salesforce_fields['Advertiser Name']}"
         }
     }
 }

@@ -149,6 +149,7 @@ export default {
       console.log(this.collapsedCases);
       console.log(this.newEmailCounter);
       console.log(this.logInSalesforce)
+      console.log('ok')
     }
   }
 }

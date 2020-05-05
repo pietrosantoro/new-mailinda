@@ -40,7 +40,6 @@ export default {
   data() {
     return {
       count: 0,
-      bgpage: bgpage
     };
   },
   methods: {
@@ -77,7 +76,15 @@ export default {
           console.log('injectionController is true');
         });
       }
-      bgpage.request_email(); //call request when click refresh button
+      //ask background to call request 
+      chrome.runtime.sendMessage(
+      {
+        type: "refresh",
+      },
+      function (response) {
+        
+        console.log(response.message)
+      });
     },
     clickStop() {
       var gtmField = document.querySelector('#GTM_ID');
@@ -93,7 +100,15 @@ export default {
       chrome.storage.sync.set({ injectionController: false }, function (result) {
         console.log('injectionController is false');
       });
-      bgpage.request_email(); //call request when click refresh button
+      //ask background to call request 
+      chrome.runtime.sendMessage(
+      {
+        type: "refresh",
+      },
+      function (response) {
+        
+        console.log(response.message)
+      });
     }
     
   },
@@ -131,7 +146,7 @@ export default {
         gtmField.classList.add('medium');
       }
     });
-    window.dataLayer.push("TagManagerInjectorTab")
+    //window.dataLayer.push("TagManagerInjectorTab")
   },
   destroyed: function () {
     console.log('injector  destroyed')
