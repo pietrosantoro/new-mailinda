@@ -250,7 +250,7 @@ export default {
 
 .email-body{
     padding: 1rem;
-    text-align: justify;
+    text-align: left;
     position: relative;
     margin: 10px auto 10px auto;
     border: hidden 1px rgba(255,255,255,.075);
