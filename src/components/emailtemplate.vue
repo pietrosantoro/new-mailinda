@@ -38,6 +38,7 @@
 
             <h1> {{section}} </h1>
 
+<<<<<<< HEAD
           <div class="single-email" v-for="(email,y) in template_global[section]">
             <button type="button" class=" call_button" data-toggle="collapse" :data-target="['#single-email-' + x + '-' + y]">
             <b>{{email.subject}}</b>
@@ -47,6 +48,15 @@
             <v-runtime-template  :template="email.body"/>
             </div>
           
+=======
+        <div class="single-email" v-for="(email,y) in template_global[section]">
+          <button type="button" data-toggle="collapse" :data-target="['#single-email-' + x + '-' + y]">
+          <b>{{email.subject}}</b>
+          <i class="fas fa-angle-down"></i>
+        </button>
+        <div @click="copy_text($event)" class="collapse" :id="['single-email-' + x + '-' + y]">
+          <v-runtime-template  :template="email.body"/>
+>>>>>>> 8a50d7a3710083635e8605f8b9143d2967578373
           </div>
 
           
@@ -223,15 +233,19 @@ export default {
 </script>
 
 <style scoped>
-  .all-emails {
+  
+#emailtemplatecomponent {
+  padding-top: 15px;
+}
+  
+  
+.all-emails {
     font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     letter-spacing: 1px;
 }
-
-
 
 
 .subsection {
@@ -248,18 +262,19 @@ export default {
 }
 
 .email-body{
-    padding: 0 1rem;
+    padding: 1rem;
     text-align: justify;
-
     position: relative;
-    margin: 0.1rem;
+    margin: 10px auto 10px auto;
     border: hidden 1px rgba(255,255,255,.075);
+    background-color: #666666;
+    width: 90%;
+    border-radius: 1.5rem;
 }
 .email-body:hover{
-    border: groove 1px rgba(255,255,255,.075);
-    border-radius: 0.4rem;
+  
     cursor: copy;
-    background-color: rgba(255,255,255,.075);
+    
 }
 
  h1 {
@@ -274,14 +289,14 @@ export default {
     padding: 10px 0 0 15px;
     letter-spacing: 1.4px;
 }
-.call_button{
+.single-email button{
     border: groove 1px rgba(255,255,255,.075);
     background-color: #666666;
-    width: 240px;
+    width: 95%;
     border-radius: 1.5rem;
     padding: 0.5rem;
     text-align: center;
-    margin: 20px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
     position: relative;
     display: inline-block;
     vertical-align: middle;
