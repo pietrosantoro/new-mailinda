@@ -6,18 +6,17 @@
       <div class="ghost-inactive" v-if="!ghostforce_active">
          <div class="subsection">
 
-            <h1> Email Template unavailable </h1>
+            <h1> Email Template not available </h1>
 
-          <div class="single-email" v-for="(email,y) in template_global[section]">
-            <button type="button" class=" call_button" data-toggle="collapse" :data-target="['#single-email-' + x + '-' + y]">
-            <b>{{email.subject}}</b>
-            <i class="fas fa-angle-down"></i>
-          </button>
-          <div @click="copy_text($event)" class="collapse" :id="['single-email-' + x + '-' + y]">
-            <v-runtime-template  :template="email.body"/>
+            <div class="single-email">
+              
+            <div>
+              The email template is not available outside your Salesforce tickets.
+              <br>
+             Just open Mailinda on the ticket of interest. Copy and Paste!
+              </div>
+            
             </div>
-          
-          </div>
 
           
           </div>
@@ -38,17 +37,6 @@
 
             <h1> {{section}} </h1>
 
-<<<<<<< HEAD
-          <div class="single-email" v-for="(email,y) in template_global[section]">
-            <button type="button" class=" call_button" data-toggle="collapse" :data-target="['#single-email-' + x + '-' + y]">
-            <b>{{email.subject}}</b>
-            <i class="fas fa-angle-down"></i>
-          </button>
-          <div @click="copy_text($event)" class="collapse" :id="['single-email-' + x + '-' + y]">
-            <v-runtime-template  :template="email.body"/>
-            </div>
-          
-=======
         <div class="single-email" v-for="(email,y) in template_global[section]">
           <button type="button" data-toggle="collapse" :data-target="['#single-email-' + x + '-' + y]">
           <b>{{email.subject}}</b>
@@ -56,7 +44,6 @@
         </button>
         <div @click="copy_text($event)" class="collapse" :id="['single-email-' + x + '-' + y]">
           <v-runtime-template  :template="email.body"/>
->>>>>>> 8a50d7a3710083635e8605f8b9143d2967578373
           </div>
 
           
@@ -65,7 +52,7 @@
         </div>
       </div>
       
-
+      </div>
     </div>
   </div>
 
