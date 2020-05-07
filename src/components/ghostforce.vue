@@ -234,9 +234,9 @@ export default {
     console.log('Ghost Force  deactivated')
   },
   mounted: function () {
-  
+    const newThis = this
     if (this.ghostforce_active) {
-      var newThis = this
+      
       newThis.current_subject = newThis.all_salesforce_fields.Subject;     // Tag implementation or Shopping Campaign
       //fetch all program data
       fetch('../' + newThis.tempJsonFolder + 'program_data_updated.json')
@@ -331,7 +331,7 @@ export default {
         })
     }
     setTimeout(function () {
-
+      
       console.log(newThis.all_salesforce_fields)
       console.log(newThis.program_level)
       console.log(newThis.current_program)

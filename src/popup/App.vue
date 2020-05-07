@@ -29,7 +29,7 @@
 import newemail from '../components/newemail'
 import ghostforce from '../components/ghostforce'
 import gtminjector from '../components/gtminjector'
-import emaltemplate from '../components/emailtemplate'
+import emailtemplate from '../components/emailtemplate'
 import knowledgebase from '../components/knowledgebase'
 
 
@@ -39,7 +39,7 @@ export default {
     newemail,
     ghostforce,
     gtminjector,
-    emaltemplate,
+    emailtemplate,
     knowledgebase
   },
   data: function() {
