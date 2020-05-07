@@ -7,7 +7,7 @@
             },
             "2": {
                 "subject": "Advertiser not ready",
-                "body": ""
+                "body": "Bonjour {{sfdc['Google Sales Rep']}},<br><br>Cet email est pour vous informer que nous nous sommes connectés avec {{sfdc['Advertiser Name']}} en référence au dossier {{sfdc['Case Id']}},{{sfdc['Advertiser Company Name']}}, cependant, due à {{sfdc['Reason/comment']}}, nous avons reprogrammé l'appel d’implémentation.<br><br>La prochaine date de rendez-vous {{sfdc['Rescheduled Appointment Date(Advertiser)']}} {{sfdc['Rescheduled Appointment Time(Advertiser)'] }} {{sfdc['Time Zone']}}.<br>N'hésitez pas à nous contacter en cas de mise à jour de l'annonceur ou de modification souhaitée de la date/heure du rendez-vous reprogrammé. Si vous souhaitez être inclus dans l'appel à notre nouvelle heure, veuillez nous le faire savoir et nous serons heureux de vous ajouter à l'invitation.<br><br>Nous vous en remercions."
             }
         },
         "In Queue":{

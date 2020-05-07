@@ -6,7 +6,7 @@
       <div class="ghost-inactive" v-if="!ghostforce_active">
          <div class="subsection">
 
-            <h1> Email Template not available </h1>
+            <h1><img src="../images/template_icons/multimedia.png"> Email Template not available </h1>
 
             <div class="single-email">
               

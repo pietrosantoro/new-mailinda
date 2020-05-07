@@ -6,8 +6,8 @@
                 "body": "Merhaba {{sfdc['Advertiser Name']}}, <br>{{sfdc['Tags']['0']['URL']}} için {{sfdc['Tags']['0']['Task_Type']}} için Google İmplementasyon Ekibi ile bağlantı kurduğunuz için teşekkür ederiz.<br><br> Lütfen isteğinizin durumunu aşağıda bulabilirsiniz. Şu anda kodun düzgün bir şekilde çalıştığından emin olmak için gösterimleri ve / veya gösterimleri bekliyoruz.Sonraki adımlar Alınan gösterimler / dönüşümler beklendiği gibi olduğunda kurulum tam ve başarılı olarak değerlendirilir. Dönüşümleri sürekli izliyoruz ve e-posta yoluyla 7 gün içinde durumu onaylayacağız.Gösterimlerin / dönüşümlerin beklendiği gibi olmaması durumunda, 7 gün sonra bir takip araması yaparız. Bir sonraki takip çağrımız {{sfdc['Follow-up Date']}} tarihinde olacak."
             },
             "2": {
-                "subject": "FirstAttempt",
-                "body": ""
+                "subject": "Advertiser not ready",
+                "body": "Merhaba {{sfdc['Google Sales Rep']}},<br><br>Bu e-posta, {{sfdc['Case Id']}}, {{sfdc['Advertiser Company Name']}} ile ilgili olarak {{sfdc['Advertiser Name']}} ile bağlantı kurduğumuzu bildirmekle birlikte, {{sfdc['Reason/comment']}} nedeniyle uygulama çağrısını yeniden planladık.<br><br>Bir sonraki randevu tarihi ve saati {{sfdc['Rescheduled Appointment Date(Advertiser)']}} {{sfdc['Rescheduled Appointment Time(Advertiser)'] }} {{sfdc['Time Zone']}}.<br><br>Herhangi bir reklamveren güncellemesi veya yeniden planlanan randevu tarih / saatinde istenen değişiklik varsa bizimle iletişime geçmekten çekinmeyin. Yeni planlanan görüşmeye dahil olmak isterseniz, lütfen bize bildirin, sizi davetiyeye eklemekten mutluluk duyarız.<br><br>Teşekkür ederiz!"
             }
         },
         "In Queue":{
