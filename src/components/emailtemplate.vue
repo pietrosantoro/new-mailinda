@@ -15,7 +15,7 @@
       <div class="all-emails"> 
 
         <div class="subsection" v-for="(section, x) in this.sections">
-
+          <img src="">
           <h1> {{section}} </h1>
 
         <div class="single-email" v-for="(email,y) in template_global[section]">
@@ -239,9 +239,7 @@ export default {
     border-radius: 1.5rem;
 }
 .email-body:hover{
-  
-    cursor: copy;
-    
+   cursor: copy;
 }
 
  h1 {
