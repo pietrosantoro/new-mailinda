@@ -6,8 +6,8 @@
                 "body": "Beste {{sfdc['Advertiser Name']}},<br> Bedankt om het Google implementatieteam te contacteren voor {{sfdc['Tags']['0']['Task_Type']}} voor {{sfdc['Tags']['0']['URL']}}.<br><br>. Onderstaand ziet u de huidige status van uw aanvraag.We zijn op dit moment op impressies en/of conversies aan het wachten; zodat we zeker zijn dat alles correct is geconfigureerd. Volgende stappen De installatie zal als compleet worden beschouwd zodra er impressies / conversies zijn. We zullen deze resultaten dan ook constant monitoren en zullen u binnen 7 dagen via e-mail op de hoogte houden. Moesten de impressies toch niet correct zijn, plannen we een vervolgafspraak binnen 7 dagen. Onze volgende afspraak is op {{sfdc['Follow-up Date']}}."
             },
             "2": {
-                "subject": "FirstAttempt",
-                "body": ""
+                "subject": "Advertiser not ready",
+                "body": "Beste {{sfdc['Google Sales Rep']}},<br>,Deze email dient om u te informeren dat we met {{sfdc['Advertiser Name']}}, {{sfdc['Case Id']}},{{sfdc['Advertiser Company Name']}} contact hebben opgenomen, echter vanwege {{sfdc['Reason/comment']}}, hebben we de afspraak verzet<br>. De volgende afspraak staat ingepland voor {{sfdc['Rescheduled Appointment Date(Advertiser)']}} {{sfdc['Rescheduled Appointment Time(Advertiser)'] }} {{sfdc['Time Zone']}}.<br><br>.U kan ons zeker contacteren indien er een update van de adverteerder is, of een vraag om de afspraak te verzetten. Indien u graag bij de call aanwezig bent, laat het ons gerust weten en dan voegen we u toe aan de uitnodiging.Alvast bedankt,"
             }
         },
         "In Queue":{
