@@ -8,22 +8,121 @@
             "2": {
                 "subject": "Advertiser not ready",
                 "body": "Здравствуйте {{sfdc['Google Sales Rep']}},<br>Этим письмом хотим проинформировать Вас, что мы связывались с {{sfdc['Advertiser Name']}} относительно {{sfdc['Case Id']}},{{sfdc['Advertiser Company Name']}}, однако, из-за {{sfdc['Reason/comment']}}, мы перенесли наш звонок. Дата и время следующей консультации это {{sfdc['Rescheduled Appointment Date(Advertiser)']}} {{sfdc['Rescheduled Appointment Time(Advertiser)'] }} {{sfdc['Time Zone']}}.<br><br>.Пожалуйста, обратитесь к нам, если появится какая-либо информация от рекламодателя или возникнет просьба перенести нашу консультацию на другой день/время. Если Вы захотите присоединиться к звонку в новое назначенное время, сообщите нам об этом, и мы будем рады добавить Вас в приглашение.<br>Спасибо!"
+            },
+            "3": {
+                "subject": "Advertiser requested communication via email",
+                "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam molestie diam eu congue ultrices. Donec dui urna, placerat sed dapibus condimentum, aliquam sit amet metus. Nunc accumsan bibendum vehicula. Phasellus a molestie elit. Nunc nisl mi, euismod id faucibus vel, sodales a purus. Cras tellus velit, commodo quis pretium vitae, viverra sit amet lorem. Sed eget sapien vestibulum ex pulvinar pulvinar eu nec mi. Fusce placerat, arcu in fringilla dignissim, ipsum lorem placerat mi, ac consectetur eros lacus id arcu. Phasellus id scelerisque lorem."
+            },
+            "4": {
+                "subject": "Awaiting Seller intervention",
+                "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam molestie diam eu congue ultrices. Donec dui urna, placerat sed dapibus condimentum, aliquam sit amet metus. Nunc accumsan bibendum vehicula. Phasellus a molestie elit. Nunc nisl mi, euismod id faucibus vel, sodales a purus. Cras tellus velit, commodo quis pretium vitae, viverra sit amet lorem. Sed eget sapien vestibulum ex pulvinar pulvinar eu nec mi. Fusce placerat, arcu in fringilla dignissim, ipsum lorem placerat mi, ac consectetur eros lacus id arcu. Phasellus id scelerisque lorem."
+            },
+            "5": {
+                "subject": "Other",
+                "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam molestie diam eu congue ultrices. Donec dui urna, placerat sed dapibus condimentum, aliquam sit amet metus. Nunc accumsan bibendum vehicula. Phasellus a molestie elit. Nunc nisl mi, euismod id faucibus vel, sodales a purus. Cras tellus velit, commodo quis pretium vitae, viverra sit amet lorem. Sed eget sapien vestibulum ex pulvinar pulvinar eu nec mi. Fusce placerat, arcu in fringilla dignissim, ipsum lorem placerat mi, ac consectetur eros lacus id arcu. Phasellus id scelerisque lorem."
+            },
+            "6": {
+                "subject": "Rescheduled by Agent",
+                "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam molestie diam eu congue ultrices. Donec dui urna, placerat sed dapibus condimentum, aliquam sit amet metus. Nunc accumsan bibendum vehicula. Phasellus a molestie elit. Nunc nisl mi, euismod id faucibus vel, sodales a purus. Cras tellus velit, commodo quis pretium vitae, viverra sit amet lorem. Sed eget sapien vestibulum ex pulvinar pulvinar eu nec mi. Fusce placerat, arcu in fringilla dignissim, ipsum lorem placerat mi, ac consectetur eros lacus id arcu. Phasellus id scelerisque lorem."
+            },
+            "7": {
+                "subject": "Agent to follow up",
+                "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam molestie diam eu congue ultrices. Donec dui urna, placerat sed dapibus condimentum, aliquam sit amet metus. Nunc accumsan bibendum vehicula. Phasellus a molestie elit. Nunc nisl mi, euismod id faucibus vel, sodales a purus. Cras tellus velit, commodo quis pretium vitae, viverra sit amet lorem. Sed eget sapien vestibulum ex pulvinar pulvinar eu nec mi. Fusce placerat, arcu in fringilla dignissim, ipsum lorem placerat mi, ac consectetur eros lacus id arcu. Phasellus id scelerisque lorem."
             }
         },
         "In Queue":{
-
+            "1": {
+                "subject": "Other",
+                "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam molestie diam eu congue ultrices. Donec dui urna, placerat sed dapibus condimentum, aliquam sit amet metus. Nunc accumsan bibendum vehicula. Phasellus a molestie elit. Nunc nisl mi, euismod id faucibus vel, sodales a purus. Cras tellus velit, commodo quis pretium vitae, viverra sit amet lorem. Sed eget sapien vestibulum ex pulvinar pulvinar eu nec mi. Fusce placerat, arcu in fringilla dignissim, ipsum lorem placerat mi, ac consectetur eros lacus id arcu. Phasellus id scelerisque lorem."
+            }
+        },
+        "Deleted":{
+            "1": {
+                "subject": "Not Interested",
+                "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam molestie diam eu congue ultrices. Donec dui urna, placerat sed dapibus condimentum, aliquam sit amet metus. Nunc accumsan bibendum vehicula. Phasellus a molestie elit. Nunc nisl mi, euismod id faucibus vel, sodales a purus. Cras tellus velit, commodo quis pretium vitae, viverra sit amet lorem. Sed eget sapien vestibulum ex pulvinar pulvinar eu nec mi. Fusce placerat, arcu in fringilla dignissim, ipsum lorem placerat mi, ac consectetur eros lacus id arcu. Phasellus id scelerisque lorem."
+            },
+            "2": {
+                "subject": "Out of Scope",
+                "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam molestie diam eu congue ultrices. Donec dui urna, placerat sed dapibus condimentum, aliquam sit amet metus. Nunc accumsan bibendum vehicula. Phasellus a molestie elit. Nunc nisl mi, euismod id faucibus vel, sodales a purus. Cras tellus velit, commodo quis pretium vitae, viverra sit amet lorem. Sed eget sapien vestibulum ex pulvinar pulvinar eu nec mi. Fusce placerat, arcu in fringilla dignissim, ipsum lorem placerat mi, ac consectetur eros lacus id arcu. Phasellus id scelerisque lorem."
+            },
+            "3": {
+                "subject": "Duplicate Case",
+                "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam molestie diam eu congue ultrices. Donec dui urna, placerat sed dapibus condimentum, aliquam sit amet metus. Nunc accumsan bibendum vehicula. Phasellus a molestie elit. Nunc nisl mi, euismod id faucibus vel, sodales a purus. Cras tellus velit, commodo quis pretium vitae, viverra sit amet lorem. Sed eget sapien vestibulum ex pulvinar pulvinar eu nec mi. Fusce placerat, arcu in fringilla dignissim, ipsum lorem placerat mi, ac consectetur eros lacus id arcu. Phasellus id scelerisque lorem."
+            },
+            "4": {
+                "subject": "Test Case",
+                "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam molestie diam eu congue ultrices. Donec dui urna, placerat sed dapibus condimentum, aliquam sit amet metus. Nunc accumsan bibendum vehicula. Phasellus a molestie elit. Nunc nisl mi, euismod id faucibus vel, sodales a purus. Cras tellus velit, commodo quis pretium vitae, viverra sit amet lorem. Sed eget sapien vestibulum ex pulvinar pulvinar eu nec mi. Fusce placerat, arcu in fringilla dignissim, ipsum lorem placerat mi, ac consectetur eros lacus id arcu. Phasellus id scelerisque lorem."
+            },
+            "5": {
+                "subject": "Others",
+                "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam molestie diam eu congue ultrices. Donec dui urna, placerat sed dapibus condimentum, aliquam sit amet metus. Nunc accumsan bibendum vehicula. Phasellus a molestie elit. Nunc nisl mi, euismod id faucibus vel, sodales a purus. Cras tellus velit, commodo quis pretium vitae, viverra sit amet lorem. Sed eget sapien vestibulum ex pulvinar pulvinar eu nec mi. Fusce placerat, arcu in fringilla dignissim, ipsum lorem placerat mi, ac consectetur eros lacus id arcu. Phasellus id scelerisque lorem."
+            }
+           
+            
         },
         "Implemented":{
-    
+            "1": {
+                "subject": "Unverified Impressions / Conversions",
+                "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam molestie diam eu congue ultrices. Donec dui urna, placerat sed dapibus condimentum, aliquam sit amet metus. Nunc accumsan bibendum vehicula. Phasellus a molestie elit. Nunc nisl mi, euismod id faucibus vel, sodales a purus. Cras tellus velit, commodo quis pretium vitae, viverra sit amet lorem. Sed eget sapien vestibulum ex pulvinar pulvinar eu nec mi. Fusce placerat, arcu in fringilla dignissim, ipsum lorem placerat mi, ac consectetur eros lacus id arcu. Phasellus id scelerisque lorem."
+            },
+            "2": {
+                "subject": "Others",
+                "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam molestie diam eu congue ultrices. Donec dui urna, placerat sed dapibus condimentum, aliquam sit amet metus. Nunc accumsan bibendum vehicula. Phasellus a molestie elit. Nunc nisl mi, euismod id faucibus vel, sodales a purus. Cras tellus velit, commodo quis pretium vitae, viverra sit amet lorem. Sed eget sapien vestibulum ex pulvinar pulvinar eu nec mi. Fusce placerat, arcu in fringilla dignissim, ipsum lorem placerat mi, ac consectetur eros lacus id arcu. Phasellus id scelerisque lorem."
+            }
         },
         "Inactive":{
-    
+            "1": {
+                "subject": "Win Under Old Criteria",
+                "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam molestie diam eu congue ultrices. Donec dui urna, placerat sed dapibus condimentum, aliquam sit amet metus. Nunc accumsan bibendum vehicula. Phasellus a molestie elit. Nunc nisl mi, euismod id faucibus vel, sodales a purus. Cras tellus velit, commodo quis pretium vitae, viverra sit amet lorem. Sed eget sapien vestibulum ex pulvinar pulvinar eu nec mi. Fusce placerat, arcu in fringilla dignissim, ipsum lorem placerat mi, ac consectetur eros lacus id arcu. Phasellus id scelerisque lorem."
+            }
         },
         "Rework":{
-    
+            "1": {
+                "subject": "Incorrect Implementation",
+                "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam molestie diam eu congue ultrices. Donec dui urna, placerat sed dapibus condimentum, aliquam sit amet metus. Nunc accumsan bibendum vehicula. Phasellus a molestie elit. Nunc nisl mi, euismod id faucibus vel, sodales a purus. Cras tellus velit, commodo quis pretium vitae, viverra sit amet lorem. Sed eget sapien vestibulum ex pulvinar pulvinar eu nec mi. Fusce placerat, arcu in fringilla dignissim, ipsum lorem placerat mi, ac consectetur eros lacus id arcu. Phasellus id scelerisque lorem."
+            },
+            "2": {
+                "subject": "Other",
+                "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam molestie diam eu congue ultrices. Donec dui urna, placerat sed dapibus condimentum, aliquam sit amet metus. Nunc accumsan bibendum vehicula. Phasellus a molestie elit. Nunc nisl mi, euismod id faucibus vel, sodales a purus. Cras tellus velit, commodo quis pretium vitae, viverra sit amet lorem. Sed eget sapien vestibulum ex pulvinar pulvinar eu nec mi. Fusce placerat, arcu in fringilla dignissim, ipsum lorem placerat mi, ac consectetur eros lacus id arcu. Phasellus id scelerisque lorem."
+            }
         },
         "Reopened":{
-    
+           "1": {
+                "subject": "Advertiser Query",
+                "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam molestie diam eu congue ultrices. Donec dui urna, placerat sed dapibus condimentum, aliquam sit amet metus. Nunc accumsan bibendum vehicula. Phasellus a molestie elit. Nunc nisl mi, euismod id faucibus vel, sodales a purus. Cras tellus velit, commodo quis pretium vitae, viverra sit amet lorem. Sed eget sapien vestibulum ex pulvinar pulvinar eu nec mi. Fusce placerat, arcu in fringilla dignissim, ipsum lorem placerat mi, ac consectetur eros lacus id arcu. Phasellus id scelerisque lorem."
+            },
+            "2": {
+                "subject": "Implementation Not Working (Advertiser)",
+                "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam molestie diam eu congue ultrices. Donec dui urna, placerat sed dapibus condimentum, aliquam sit amet metus. Nunc accumsan bibendum vehicula. Phasellus a molestie elit. Nunc nisl mi, euismod id faucibus vel, sodales a purus. Cras tellus velit, commodo quis pretium vitae, viverra sit amet lorem. Sed eget sapien vestibulum ex pulvinar pulvinar eu nec mi. Fusce placerat, arcu in fringilla dignissim, ipsum lorem placerat mi, ac consectetur eros lacus id arcu. Phasellus id scelerisque lorem."
+            },
+            "3": {
+                "subject": "Change Request (Advertiser)",
+                "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam molestie diam eu congue ultrices. Donec dui urna, placerat sed dapibus condimentum, aliquam sit amet metus. Nunc accumsan bibendum vehicula. Phasellus a molestie elit. Nunc nisl mi, euismod id faucibus vel, sodales a purus. Cras tellus velit, commodo quis pretium vitae, viverra sit amet lorem. Sed eget sapien vestibulum ex pulvinar pulvinar eu nec mi. Fusce placerat, arcu in fringilla dignissim, ipsum lorem placerat mi, ac consectetur eros lacus id arcu. Phasellus id scelerisque lorem."
+            },
+            "4": {
+                "subject": "From Inactive (Advertiser)",
+                "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam molestie diam eu congue ultrices. Donec dui urna, placerat sed dapibus condimentum, aliquam sit amet metus. Nunc accumsan bibendum vehicula. Phasellus a molestie elit. Nunc nisl mi, euismod id faucibus vel, sodales a purus. Cras tellus velit, commodo quis pretium vitae, viverra sit amet lorem. Sed eget sapien vestibulum ex pulvinar pulvinar eu nec mi. Fusce placerat, arcu in fringilla dignissim, ipsum lorem placerat mi, ac consectetur eros lacus id arcu. Phasellus id scelerisque lorem."
+            },
+            "5": {
+                "subject": "Seller Query",
+                "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam molestie diam eu congue ultrices. Donec dui urna, placerat sed dapibus condimentum, aliquam sit amet metus. Nunc accumsan bibendum vehicula. Phasellus a molestie elit. Nunc nisl mi, euismod id faucibus vel, sodales a purus. Cras tellus velit, commodo quis pretium vitae, viverra sit amet lorem. Sed eget sapien vestibulum ex pulvinar pulvinar eu nec mi. Fusce placerat, arcu in fringilla dignissim, ipsum lorem placerat mi, ac consectetur eros lacus id arcu. Phasellus id scelerisque lorem."
+            },
+            "6": {
+                "subject": "Implementation Not Working (Seller)",
+                "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam molestie diam eu congue ultrices. Donec dui urna, placerat sed dapibus condimentum, aliquam sit amet metus. Nunc accumsan bibendum vehicula. Phasellus a molestie elit. Nunc nisl mi, euismod id faucibus vel, sodales a purus. Cras tellus velit, commodo quis pretium vitae, viverra sit amet lorem. Sed eget sapien vestibulum ex pulvinar pulvinar eu nec mi. Fusce placerat, arcu in fringilla dignissim, ipsum lorem placerat mi, ac consectetur eros lacus id arcu. Phasellus id scelerisque lorem."
+            },
+            "7": {
+                "subject": "Change Request (Seller)",
+                "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam molestie diam eu congue ultrices. Donec dui urna, placerat sed dapibus condimentum, aliquam sit amet metus. Nunc accumsan bibendum vehicula. Phasellus a molestie elit. Nunc nisl mi, euismod id faucibus vel, sodales a purus. Cras tellus velit, commodo quis pretium vitae, viverra sit amet lorem. Sed eget sapien vestibulum ex pulvinar pulvinar eu nec mi. Fusce placerat, arcu in fringilla dignissim, ipsum lorem placerat mi, ac consectetur eros lacus id arcu. Phasellus id scelerisque lorem."
+            },
+            "8": {
+                "subject": "From Inactive (Seller)",
+                "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam molestie diam eu congue ultrices. Donec dui urna, placerat sed dapibus condimentum, aliquam sit amet metus. Nunc accumsan bibendum vehicula. Phasellus a molestie elit. Nunc nisl mi, euismod id faucibus vel, sodales a purus. Cras tellus velit, commodo quis pretium vitae, viverra sit amet lorem. Sed eget sapien vestibulum ex pulvinar pulvinar eu nec mi. Fusce placerat, arcu in fringilla dignissim, ipsum lorem placerat mi, ac consectetur eros lacus id arcu. Phasellus id scelerisque lorem."
+            },
+            "9": {
+                "subject": "Other",
+                "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam molestie diam eu congue ultrices. Donec dui urna, placerat sed dapibus condimentum, aliquam sit amet metus. Nunc accumsan bibendum vehicula. Phasellus a molestie elit. Nunc nisl mi, euismod id faucibus vel, sodales a purus. Cras tellus velit, commodo quis pretium vitae, viverra sit amet lorem. Sed eget sapien vestibulum ex pulvinar pulvinar eu nec mi. Fusce placerat, arcu in fringilla dignissim, ipsum lorem placerat mi, ac consectetur eros lacus id arcu. Phasellus id scelerisque lorem."
+            }
         }
     }
 }
