@@ -3,20 +3,45 @@
 
     <div class="container-fluid">
 
-      <div class="btn-group">
-        <button type="button" class="btn btn-danger btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          {{current_market}}
-        </button>
-        <div class="dropdown-menu">
-          <a v-for="market in this.all_market"class="dropdown-item" href="#" @click="change_market(market)">{{market}}</a>
-        </div>
+      <div class="ghost-inactive" v-if="!ghostforce_active">
+         <div class="subsection">
+
+            <h1> Email Template not available </h1>
+
+            <div class="single-email">
+              
+            <div>
+              The email template is not available outside your Salesforce tickets.
+              <br>
+             Just open Mailinda on the ticket of interest. Copy and Paste!
+              </div>
+            
+            </div>
+
+          
+          </div>
       </div>
+      <div v-else>
+        <div class="btn-group">
+          <button type="button" class="btn btn-danger btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            {{current_market}}
+          </button>
+          <div class="dropdown-menu">
+            <a v-for="market in this.all_market"class="dropdown-item" href="#" @click="change_market(market)">{{market}}</a>
+          </div>
+        </div>
 
-      <div class="all-emails"> 
+        <div class="all-emails"> 
 
+<<<<<<< HEAD
         <div class="subsection" v-for="(section, x) in this.sections">
           <img src="">
           <h1> {{section}} </h1>
+=======
+          <div class="subsection" v-for="(section, x) in this.sections">
+
+            <h1> {{section}} </h1>
+>>>>>>> 32f9c64ed230f00626b3761bdf850b4aef266083
 
         <div class="single-email" v-for="(email,y) in template_global[section]">
           <button type="button" data-toggle="collapse" :data-target="['#single-email-' + x + '-' + y]">
@@ -26,14 +51,14 @@
         <div @click="copy_text($event)" class="collapse" :id="['single-email-' + x + '-' + y]">
           <v-runtime-template  :template="email.body"/>
           </div>
-        
-        </div>
 
-        
-        </div>
+          
+          </div>
 
+        </div>
       </div>
-
+      
+      </div>
     </div>
   </div>
 
@@ -57,6 +82,7 @@ export default {
       current_market: "",
       sfdc: this.props.all_salesforce_fields,
       tempJsonFolder: this.props.tempJsonFolder,
+      ghostforce_active: this.props.ghostforce_active,
     };
   },
   activated: function () {

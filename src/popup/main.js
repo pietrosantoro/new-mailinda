@@ -10,7 +10,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 window.$ = window.jQuery = require('jquery');
 
-
+import VRuntimeTemplate from "v-runtime-template";
 
 /* eslint-disable no-new */
 new Vue({
