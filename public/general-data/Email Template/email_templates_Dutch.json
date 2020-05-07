@@ -1,0 +1,29 @@
+{
+    "email_template": {
+        "In Progress":{
+            "1": {
+                "subject": "Advertiser not ready",
+                "body": "Buongiorno {!Case.G_First_name__c},<br>Questa mail ti è stata inviata per informarti che ci siamo  messi in contatto con {{GAD_Advertiser_Name__c}} riguardo a {!Case.Id},{!Case.GAD_Advertiser_Company_Name__c}, ma, a causa di {reason filled out by agent }, abbiamo posticipato la chiamata per l’implementazione. <br><br>Il nuovo appuntamento è fissato in data Appointment_DateTime_Advertiser__c} alle ore {{  {!Case.GAD_Time_Zone__c}.<br><br>Potrai contattarci liberamente se dovessero essere presenti delle novità da parte dell’inserzionista o volessi apportare delle modifiche alla data e ora dell’appuntamento. Se volessi voler partecipare alla chiamata, ti preghiamo di farcelo sapere. Saremo felici di aggiungerti all’invito.<br><br>Grazie!"
+            },
+            "2": {
+                "subject": "FirstAttempt",
+                "body": ""
+            }
+        },
+        "In Queue":{
+
+        },
+        "Implemented":{
+    
+        },
+        "Inactive":{
+    
+        },
+        "Rework":{
+    
+        },
+        "Reopened":{
+    
+        }
+    }
+}
