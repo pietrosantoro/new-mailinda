@@ -2,8 +2,8 @@
     "email_template": {
         "In Progress":{
             "1": {
-                "subject": "Advertiser not ready",
-                "body": "test french. {{Case_Contacts.0.Contact}},\n\nE’ stato un piacere parlare con lei oggi!\n\nPer assicurarsi che il codice funzioni correttamente, consigliamo l’estensione di Google Chrome, Google Tag Assistant. Una volta che il codice è installato per favore mi faccia sapere rispondendo a questa email e se ha bisogno di ulteriore supporto, non esiti a contattarmi via email a questo stesso indirizzo.\n\nA presto,"
+                "subject": "Awaiting Impressions/Conversions",
+                "body": "Hola {{sfdc['Advertiser Name']}}, <br><br>Gracias por contactar con el equipo de Implementación de Google para {{sfdc['Tags']['0']['Task_Type']}} por {{sfdc['Tags']['0']['URL']}}.Actualmente estamos a la espera de que las impresiones y/o conversiones se hagan visibles para garantizar que el código funcione correctamente.<br><br><b>Próximos pasos:</b><br>La instalación se considerará completa y exitosa, una vez que las impresiones / conversiones recibidas sean las esperadas. Los monitorearemos constantemente y confirmaremos el estado dentro de los 7 días por correo electrónico<br><br>En caso de que las impresiones / conversiones no sean las esperadas, configuraremos una llamada de seguimiento después de 7 días. Nuestra próxima llamada de seguimiento estará en {{sfdc['Follow-up Date']}}"
             },
             "2": {
                 "subject": "FirstAttempt",
