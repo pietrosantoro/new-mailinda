@@ -1,13 +1,13 @@
 {
     "email_template": {
         "In Progress":{
-            "1": {
-                "subject": "Advertiser not ready",
-                "body": "Buongiorno {{sfdc['Google Sales Rep']}},<br>Questa mail ti è stata inviata per informarti che ci siamo  messi in contatto con {{sfdc['Advertiser Name']}} riguardo a {{sfdc['Case Id']}},{{sfdc['Advertiser Company Name']}}, ma, a causa di {{sfdc['Reason/comment']}}, abbiamo posticipato la chiamata per l’implementazione. <br><br>Il nuovo appuntamento è fissato in data {{sfdc['Rescheduled Appointment Date(Advertiser)']}} alle ore {{sfdc['Rescheduled Appointment Time(Advertiser)'] }} {{sfdc['Time Zone']}}.<br><br>Potrai contattarci liberamente se dovessero essere presenti delle novità da parte dell’inserzionista o volessi apportare delle modifiche alla data e ora dell’appuntamento. Se volessi voler partecipare alla chiamata, ti preghiamo di farcelo sapere. Saremo felici di aggiungerti all’invito.<br><br>Grazie!"
+            "1":{
+                "subject": "Awaiting Impressions/Conversions",
+                "body": "Buongiorno {{sfdc['Advertiser Name']}}, <br>Ti ringraziamo per esserti messo in contatto con il Team di Implementazione di Google riguardo il {{sfdc['Tags']['0']['Task_Type']}} per {{sfdc['Tags']['0']['URL']}}.<br><br>Al momento stiamo aspettando impressioni e / o conversioni da visualizzare per garantire che il codice funzioni correttamente.<br><br><b>Prossimi passi</b><br>L’installazione sarà considerata completa e riuscita, una volta che le impressioni e / o conversioni rispecchieranno le aspettative. Le monitoreremo costantemente e ne confermeremo lo stato entro sette giorni tramite e-mail.<br>In caso le impressioni e / o conversioni non dovessero rispecchiare le aspettative, fisseremo una successiva chiamata entro 7 giorni, per il giorno {{sfdc['Follow-up Date']}} "
             },
             "2": {
-                "subject": "Awaiting Impressions/Conversions",
-                "body": "Buongiorno {{sfdc['Advertiser Name']}}, <br>Ti ringraziamo per esserti messo in contatto con il Team di Implementazione di Google riguardo il {{sfdc['Tags']['0']['Task_Type']}} per {{sfdc['Tags']['0']['URL']}}.<br><br>Al momento stiamo aspettando impressioni e / o conversioni da visualizzare per garantire che il codice funzioni correttamente.<br><br><b>Prossimi passi</b><br>L’installazione sarà considerata completa e riuscita, una volta che le impressioni e / o conversioni rispecchieranno le aspettative. Le monitoreremo costantemente e ne confermeremo lo stato entro sette giorni tramite e-mail.<br>In caso le impressioni e / o conversioni non dovessero rispecchiare le aspettative, fisseremo una successiva chiamata entro 7 giorni, per il giorno "
+                "subject": "Advertiser not ready",
+                "body": "Buongiorno {{sfdc['Google Sales Rep']}},<br>Questa mail ti è stata inviata per informarti che ci siamo  messi in contatto con {{sfdc['Advertiser Name']}} riguardo a {{sfdc['Case Id']}},{{sfdc['Advertiser Company Name']}}, ma, a causa di {{sfdc['Reason/comment']}}, abbiamo posticipato la chiamata per l’implementazione. <br><br>Il nuovo appuntamento è fissato in data {{sfdc['Rescheduled Appointment Date(Advertiser)']}} alle ore {{sfdc['Rescheduled Appointment Time(Advertiser)'] }} {{sfdc['Time Zone']}}.<br><br>Potrai contattarci liberamente se dovessero essere presenti delle novità da parte dell’inserzionista o volessi apportare delle modifiche alla data e ora dell’appuntamento. Se volessi voler partecipare alla chiamata, ti preghiamo di farcelo sapere. Saremo felici di aggiungerti all’invito.<br><br>Grazie!"
             }
         },
         "In Queue":{
