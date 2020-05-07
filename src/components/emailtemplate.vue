@@ -33,15 +33,9 @@
 
         <div class="all-emails"> 
 
-<<<<<<< HEAD
         <div class="subsection" v-for="(section, x) in this.sections">
-          <img src="">
-          <h1> {{section}} </h1>
-=======
-          <div class="subsection" v-for="(section, x) in this.sections">
-
-            <h1> {{section}} </h1>
->>>>>>> 32f9c64ed230f00626b3761bdf850b4aef266083
+        
+          <h1><img src="../images/template_icons/multimedia.png">{{section}} </h1>
 
         <div class="single-email" v-for="(email,y) in template_global[section]">
           <button type="button" data-toggle="collapse" :data-target="['#single-email-' + x + '-' + y]">
@@ -61,7 +55,7 @@
       </div>
     </div>
   </div>
-
+</div>
 </template>
 
 <script>
@@ -295,7 +289,7 @@ export default {
      color: white;
   }
 
-#emailtemplatecomponent > div > h1 > img {
+#emailtemplatecomponent  h1 > img {
     height: 20px;
     width: 20px;
     margin: 0 10px 2px 0;

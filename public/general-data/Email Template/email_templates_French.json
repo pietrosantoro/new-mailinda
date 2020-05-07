@@ -2,12 +2,12 @@
     "email_template": {
         "In Progress":{
             "1": {
-                "subject": "Advertiser not ready",
-                "body": "test french. {{Case_Contacts.0.Contact}},\n\nE’ stato un piacere parlare con lei oggi!\n\nPer assicurarsi che il codice funzioni correttamente, consigliamo l’estensione di Google Chrome, Google Tag Assistant. Una volta che il codice è installato per favore mi faccia sapere rispondendo a questa email e se ha bisogno di ulteriore supporto, non esiti a contattarmi via email a questo stesso indirizzo.\n\nA presto,"
+                "subject": "Awaiting Impressions/Conversions",
+                "body": "Bonjour {{sfdc['Advertiser Name']}}, <br>Merci d’avoir connecté avec la Google Implementation Team pour implémenter {{sfdc['Tags']['0']['Task_Type']}} pour {{sfdc['Tags']['0']['URL']}}.<br><br>.Nous attendons actuellement les impressions et/ou les conversions à afficher afin de nous assurer que le code fonctionne correctement.Prochaines étapesL'installation sera considérée comme complète et réussie, une fois que les impressions/conversions reçues seront conformes aux attentes. Nous les surveillerons en permanence et confirmerons l'état d'avancement dans les 7 jours par courrier électronique. Au cas où les impressions/conversions ne seraient pas conformes aux attentes, nous organiserons un appel de suivi après 7 jours. Notre prochain appel de suivi aura lieu le {{sfdc['Follow-up Date']}}. "
             },
             "2": {
-                "subject": "FirstAttempt",
-                "body": "test french {{#each Case_Contacts}}\nBuongiorno {{Contact}},\n{{/each}}\n\nCollaboro con {{Google_Sales_Rep}}. Sto provando a raggiungerla telefonicamente per aiutarla nell’implementazione del tag per il suo account di AdWords {{Customer_ID}}.\n\nDato che sto incontrando problemi nel contattarla, potrebbe cortesemente indicarmi un momento migliore per questa telefonata?\n\nVorrei inoltre ricordarle che dopo tre tentativi di implementazione sarò costretta a chiudere il ticket a causa di rigide politiche interne.\n\nDistinti saluti,\n\nSilvia"
+                "subject": "Advertiser not ready",
+                "body": ""
             }
         },
         "In Queue":{

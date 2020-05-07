@@ -2,12 +2,12 @@
     "email_template": {
         "In Progress":{
             "1": {
-                "subject": "Advertiser not ready",
-                "body": "test french. {{Case_Contacts.0.Contact}},\n\nE’ stato un piacere parlare con lei oggi!\n\nPer assicurarsi che il codice funzioni correttamente, consigliamo l’estensione di Google Chrome, Google Tag Assistant. Una volta che il codice è installato per favore mi faccia sapere rispondendo a questa email e se ha bisogno di ulteriore supporto, non esiti a contattarmi via email a questo stesso indirizzo.\n\nA presto,"
+                "subject": "Awaiting Impressions/Conversions",
+                "body": "Merhaba {{sfdc['Advertiser Name']}}, <br>{{sfdc['Tags']['0']['URL']}} için {{sfdc['Tags']['0']['Task_Type']}} için Google İmplementasyon Ekibi ile bağlantı kurduğunuz için teşekkür ederiz.<br><br> Lütfen isteğinizin durumunu aşağıda bulabilirsiniz. Şu anda kodun düzgün bir şekilde çalıştığından emin olmak için gösterimleri ve / veya gösterimleri bekliyoruz.Sonraki adımlar Alınan gösterimler / dönüşümler beklendiği gibi olduğunda kurulum tam ve başarılı olarak değerlendirilir. Dönüşümleri sürekli izliyoruz ve e-posta yoluyla 7 gün içinde durumu onaylayacağız.Gösterimlerin / dönüşümlerin beklendiği gibi olmaması durumunda, 7 gün sonra bir takip araması yaparız. Bir sonraki takip çağrımız {{sfdc['Follow-up Date']}} tarihinde olacak."
             },
             "2": {
                 "subject": "FirstAttempt",
-                "body": "test french {{#each Case_Contacts}}\nBuongiorno {{Contact}},\n{{/each}}\n\nCollaboro con {{Google_Sales_Rep}}. Sto provando a raggiungerla telefonicamente per aiutarla nell’implementazione del tag per il suo account di AdWords {{Customer_ID}}.\n\nDato che sto incontrando problemi nel contattarla, potrebbe cortesemente indicarmi un momento migliore per questa telefonata?\n\nVorrei inoltre ricordarle che dopo tre tentativi di implementazione sarò costretta a chiudere il ticket a causa di rigide politiche interne.\n\nDistinti saluti,\n\nSilvia"
+                "body": ""
             }
         },
         "In Queue":{

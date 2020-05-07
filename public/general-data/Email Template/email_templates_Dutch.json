@@ -2,8 +2,8 @@
     "email_template": {
         "In Progress":{
             "1": {
-                "subject": "Advertiser not ready",
-                "body": "Buongiorno {!Case.G_First_name__c},<br>Questa mail ti è stata inviata per informarti che ci siamo  messi in contatto con {{GAD_Advertiser_Name__c}} riguardo a {!Case.Id},{!Case.GAD_Advertiser_Company_Name__c}, ma, a causa di {reason filled out by agent }, abbiamo posticipato la chiamata per l’implementazione. <br><br>Il nuovo appuntamento è fissato in data Appointment_DateTime_Advertiser__c} alle ore {{  {!Case.GAD_Time_Zone__c}.<br><br>Potrai contattarci liberamente se dovessero essere presenti delle novità da parte dell’inserzionista o volessi apportare delle modifiche alla data e ora dell’appuntamento. Se volessi voler partecipare alla chiamata, ti preghiamo di farcelo sapere. Saremo felici di aggiungerti all’invito.<br><br>Grazie!"
+                "subject": "Awaiting Impressions/Conversions",
+                "body": "Beste {{sfdc['Advertiser Name']}},<br> Bedankt om het Google implementatieteam te contacteren voor {{sfdc['Tags']['0']['Task_Type']}} voor {{sfdc['Tags']['0']['URL']}}.<br><br>. Onderstaand ziet u de huidige status van uw aanvraag.We zijn op dit moment op impressies en/of conversies aan het wachten; zodat we zeker zijn dat alles correct is geconfigureerd. Volgende stappen De installatie zal als compleet worden beschouwd zodra er impressies / conversies zijn. We zullen deze resultaten dan ook constant monitoren en zullen u binnen 7 dagen via e-mail op de hoogte houden. Moesten de impressies toch niet correct zijn, plannen we een vervolgafspraak binnen 7 dagen. Onze volgende afspraak is op {{sfdc['Follow-up Date']}}."
             },
             "2": {
                 "subject": "FirstAttempt",
