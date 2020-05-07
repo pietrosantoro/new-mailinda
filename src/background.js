@@ -8,6 +8,7 @@ window.$ = window.jQuery = require('jquery');
 const tableToJSON = require('table-to-json')
 
 
+
 /* global variables declared as var beacouse used in popup.js */
 var newEmailCounter = 0;      //new email after request
 var oldEmailCounter = 0;      //new email before request
@@ -164,7 +165,7 @@ function CheckNotification() {
     chrome.notifications.create(
       'name-for-notification', {
         type: 'basic',
-        iconUrl: 'images/mail_icon.png',
+        iconUrl: 'icons/mail_icon.png',
         title: "You have new Email",
         message: String(newEmailCounter) + " new Email"
       },
@@ -340,7 +341,7 @@ function checkOnCall() {
         chrome.notifications.create(
           'onCall', {
             type: 'basic',
-            iconUrl: 'images/mail_icon.png',
+            iconUrl: 'icons/mail_icon.png',
             title: "Case " + currentHourCase.caseNumber + " is not On Call",
             message: "Click the button and put On Call your case",
             requireInteraction: true,
