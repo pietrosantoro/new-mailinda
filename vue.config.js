@@ -1,4 +1,5 @@
 module.exports = {
+  runtimeCompiler: true,
   pages: {
     popup: {
       template: 'public/index.html',
@@ -24,6 +25,5 @@ module.exports = {
         }
       }
     }
-  },
-  runtimeCompiler: true,
+  }
 }

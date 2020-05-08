@@ -44,7 +44,7 @@ chrome.storage.sync.get(['injectionController'], function (result) {
 
 
 
-
+console.log('gtmInjector')
 
 
 
