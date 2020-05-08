@@ -86,67 +86,26 @@ export default {
   },
   mounted: function () {
     const newThis = this
-    //checkMarket()
     // everytime the component is mounted, I get market from local storage
     chrome.storage.sync.get(['market'], function (result) {
       if (result.market) {
         console.log(result.market)
         newThis.current_market = result.market;
-        fetch('../' + newThis.tempJsonFolder + 'Email%20Template/email_templates_' + newThis.current_market + '.json')
-        .then(response => response.json())
-        .then(data => {
-          // console.log(data)
-          // console.log(data.juniorsme[this.current_day])
-          // add div to the body of the email in order to render correctly the copmponent with VRuntimeTemplate library
-          newThis.template_global = data.email_template
-          newThis.sections = Object.keys(data.email_template)
-
-          for (var subsection in newThis.template_global){
-            console.log(subsection)
-            console.log(newThis.template_global[subsection])
-            for(var index in newThis.template_global[subsection]){
-              console.log(index)
-              newThis.template_global[subsection][index].body = "<div class='email-body'> " + newThis.template_global[subsection][index].body + "</div>"
-              console.log(newThis.template_global[subsection][index].body)
-            }
-           // newThis.template_global[index].body = "<div class='email-body'> " + newThis.template_global[index].body + "</div>"
-            //console.log(newThis.template_global[index].body)
-          }
-          
-          //test1 = data.email_template
-          //console.log(test1)
-          //this.all_location = Object.keys(data)
-          //console.log(data[this.current_location])
-          //this.junior_sme_daily = data[this.current_location].juniorsme[this.current_day]
-          //this.hangout_link = data[this.current_location].hangout_link
-          // console.log(this.hangout_link)
-        })
-        .catch(error => console.error(error))
+        newThis.fetch_template(newThis,newThis.current_market)
         
       }
       else {
-        // market = ""
-        // this.current_market = result.market;
+        //set market default when the extension is installed for the first time
+         newThis.current_market = "Polish";
+         newThis.fetch_template(newThis,newThis.current_market)
       }
 
     })
     fetch('../' + newThis.tempJsonFolder + 'Email%20Template/all_market.json')
       .then(response => response.json())
       .then(data => {
-        // console.log(data)
-        // console.log(data.juniorsme[this.current_day])
         newThis.all_market = data.all_market
-        
-        console.log(newThis.all_market)
-        //this.all_location = Object.keys(data)
-        //this.current_location = location
-        //console.log(data[this.current_location])
-        //this.junior_sme_daily = data[this.current_location].juniorsme[this.current_day]
-        //this.hangout_link = data[this.current_location].hangout_link
-        // console.log(this.hangout_link)
       }).catch(error => console.error(error))
-      console.log('../' + newThis.tempJsonFolder + 'Email%20Template/email_templates_' + this.current_market + '.json')
-      
       //window.dataLayer.push("EmailTemplateTab")
     console.log('Email Template  mounted')
   },
@@ -154,64 +113,42 @@ export default {
    
   },
   methods: {
-    checkMarket() {
-    },
-    change_market(market) {
-      const newThis = this
-      console.log(market)
-      this.current_market = market;
-      
-      fetch('../' + newThis.tempJsonFolder + 'Email%20Template/email_templates_' + newThis.current_market + '.json')
+   fetch_template(newThis,market) {
+     fetch('../' + newThis.tempJsonFolder + 'Email%20Template/email_templates_' + market + '.json')
         .then(response => response.json())
         .then(data => {
-         
-          
+          // add div to the body of the email in order to render correctly the copmponent with VRuntimeTemplate library
           newThis.template_global = data.email_template
           newThis.sections = Object.keys(data.email_template)
 
-          // add div to the body of the email in order to render correctly the copmponent with VRuntimeTemplate library
           for (var subsection in newThis.template_global){
             for(var index in newThis.template_global[subsection]){
               newThis.template_global[subsection][index].body = "<div class='email-body'> " + newThis.template_global[subsection][index].body + "</div>"
             }
           }
-          
         })
         .catch(error => console.error(error))
-
+    },
+    change_market(market) {
+      const newThis = this
+      console.log(market)
+      newThis.current_market = market;
+      newThis.fetch_template(newThis,newThis.current_market)
       chrome.storage.sync.set({ market: market }, function (result) {
         console.log("market set to " + market);
       });
     },
-    copy_text(text){
-    console.log(text)
-    if (!navigator.clipboard) {
-      var textArea = document.createElement("textarea");
-      textArea.value = text.target.outerText;
-      textArea.style.position="fixed";  //avoid scrolling to bottom
-      document.body.appendChild(textArea);
-      textArea.focus();
-      textArea.select();
-
-      try {
-        var successful = document.execCommand('copy');
-        var msg = successful ? 'successful' : 'unsuccessful';
-        console.log('Fallback: Copying text command was ' + msg);
-      } catch (err) {
-        console.error('Fallback: Oops, unable to copy', err);
-      }
-
-      document.body.removeChild(textArea);
-
-      return;
-    }
-    navigator.clipboard.writeText(text.target.outerText).then(function() {
-      console.log('Async: Copying to clipboard was successful!');
-    }, function(err) {
-      console.error('Async: Could not copy text: ', err);
-    });
-
-
+    copy_text(event){
+      console.log(event.target.innerHTML)
+      var text = event.target.innerHTML
+      function listener(e) {
+          e.clipboardData.setData("text/html", text);
+          e.clipboardData.setData("text/plain", text);
+          e.preventDefault();
+        }
+        document.addEventListener("copy", listener);
+        document.execCommand("copy");
+        document.removeEventListener("copy", listener);
       
     }
   },
@@ -257,8 +194,13 @@ export default {
     width: 90%;
     border-radius: 1.5rem;
 }
+ 
 .email-body:hover{
    cursor: copy;
+   border: groove 1px rgba(255,255,255,.075);
+    border-radius: 1.5rem;
+    cursor: copy;
+    background-color: rgba(255, 255, 255, 0.158);
 }
 
  h1 {
